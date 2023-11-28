@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.tracker-container {
+  background-color: #000000;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (max-height: 768px) {
+  .tracker-container {
+    height: 100%;
+    padding: 20px;
+  }
+}

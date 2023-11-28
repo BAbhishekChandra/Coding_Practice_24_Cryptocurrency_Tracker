@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.item-image {
+  width: 25px;
+  height: 25px;
+}
+
+.item-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.item-usd-value {
+  width: 25%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 50px;
+  text-align: right;
+}
+
+.item-euro-value {
+  width: 25%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  justify-content: right;
+}
+
+.item-first-inner-container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-second-inner-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
